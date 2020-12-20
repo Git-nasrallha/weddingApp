@@ -1,0 +1,560 @@
+
+/*global style*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Pacifico&display=swap');
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover:hover{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+:root{
+    --mainColor:#000;
+    --secendery-color:#54595F;
+    --ligthColor:#fff;
+    --textColor:#7A7A7A;
+    --activColor:#C4AD9D;
+}
+
+.headdr-section{
+    width: 600px;
+    margin: 20px auto;
+    margin-bottom: 100px;
+    text-transform: capitalize;
+}
+.headdr-section .section-log svg{
+    color: var(--activColor) !important;
+    width: 85px;
+}
+.headdr-section h2{
+    font-size: 45px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+}
+.headdr-section .lead{
+    font-size: 17px;
+    color: var(--textColor);
+}
+
+.header-section-with-border{
+    position: relative;
+    text-transform: uppercase;
+    width: 300px;
+    margin: 10px auto;
+}
+.header-section-with-border h1{
+    position: relative;
+    font-size: 22px;
+    padding: 20px;
+    font-weight: lighter;
+}
+.header-section-with-border h1::before{
+    content: "";
+    display: block;
+    width: 110px;
+    height: 3px;
+    background-color: var(--activColor);
+    position: absolute;
+    left: -43px;
+    bottom: 30px;
+}
+.header-section-with-border h1::after{
+    content: "";
+    display: block;
+    width: 110px;
+    height: 3px;
+    background-color: var(--activColor);
+    position: absolute;
+    right: -43px;
+    bottom: 30px;
+}
+h3{
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+.navbar-toggler {
+    background-color: #fff;
+}
+/*end globasl style*/
+
+/*start header style*/
+header{
+    height: 90vh;
+    background-image:linear-gradient(#000,#1d1a1a1f), url("../images/headerbg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+    position: relative;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: var(--ligthColor);
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-right: 30px;
+}
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show>.nav-link{
+    color: var(--activColor);
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--activColor);
+}
+.navbar-text{
+    margin-top: 20px;
+}
+.navbar-text a{
+    background-color: var(--ligthColor);
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    color: var(--activColor) !important;
+    transition: all .3s ease-in-out;
+}
+.navbar-text a:hover{
+    background-color: var(--activColor);
+    color: var(--ligthColor) !important;
+}
+header .header-content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 10%;
+   color: var(--ligthColor);
+}
+header .header-content .header-section{
+    position: relative;
+    text-transform: uppercase;
+}
+.header-content .header-section h1{
+    position: relative;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: lighter;
+}
+.header-content .header-section h1::before{
+    content: "";
+    display: block;
+    width: 110px;
+    height: 3px;
+    background-color: var(--ligthColor);
+    position: absolute;
+    left: -98px;
+    bottom: 42px;
+}
+.header-content .header-section h1::after{
+    content: "";
+    display: block;
+    width: 110px;
+    height: 3px;
+    background-color: var(--ligthColor);
+    position: absolute;
+    right: -98px;
+    bottom: 42px;
+}
+.header-content .names{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+}
+.header-content .weeding-date{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+.header-content .add-to-calender{
+    background-color: transparent;
+    padding: 15px 20px;
+    border: 2px solid var(--ligthColor);
+    border-radius: 5px;
+    font-size: 22px;
+    text-transform: uppercase;
+    outline: none;
+    color: var(--ligthColor);
+    transition: all .5s ease-in-out;
+} 
+.header-content .add-to-calender:hover{
+    background-color: var(--activColor);
+    color: var(--mainColor);
+}
+/*end header style*/
+
+/*start our story section in home*/
+.ourStory{
+    padding: 40px 0;
+    margin: 30px 0;
+    position: relative;
+}
+.ourStory .headdr-section{
+    width: 600px;
+    margin: 20px auto;
+    margin-bottom: 100px;
+    text-transform: capitalize;
+}
+
+.ourStory .headdr-section h2{
+    font-size: 45px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+}
+.ourStory .headdr-section .lead{
+    font-size: 17px;
+    color: var(--textColor);
+}
+.ourStory .story-content{
+    margin-bottom: 80px;
+}
+.story-content .hom-story h3{
+    text-transform: capitalize;
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.story-content .hom-story p{
+    color: var(--textColor);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.story-content .hom-story .social a{
+    color: var(--activColor);
+    font-size: 30px;
+    margin-left: 10px;
+}
+.ourStory .hom-story-last{
+    margin-top: 80px;
+}
+.ourStory .story-content .story-img{
+    margin-top: 40px;
+}
+
+.ourStory .content-text{
+    background-color: #c4ad9d66;
+    height: 200px;
+    padding-top: 5px;
+    position: relative;
+}
+.ourStory .content-text .text{
+    margin: 50px auto;
+    width: 800px;
+    border: 3px solid var(--activColor);
+    padding: 20px 100px;
+    text-align: center;
+    position: relative;
+}
+.ourStory .content-text .text p{
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.ourStory .content-text .text h5{
+    color: var(--secendery-color);
+    font-size: 20px;
+    margin: 30px 0;
+}
+.ourStory .ourStory-footer{
+    margin-top: 200px;
+    margin-bottom: 40px;
+}
+.ourStory .ourStory-footer .card{
+    border: none;
+}
+.ourStory .ourStory-footer .card i{
+    font-size: 40px; font-weight: bold;
+    margin-bottom: 20px;
+}
+.ourStory .ourStory-footer .card .card-title{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--mainColor);
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.ourStory .ourStory-footer .card .card-text,.phone{
+    font-size: 18px;
+    color: var(--textColor);
+}
+.ourStory .ourStory-footer .card a{
+    font-style: italic;
+    color: var(--activColor);
+    text-decoration: underline;
+    text-transform: capitalize;
+    outline: none;
+    padding-bottom: 10px;
+}
+/*end our story section in home*/
+/*start gallary sectionstyle in home page*/
+.gallary{
+    margin-bottom: 70px;
+}
+.gallary .row [class*=col-]{
+    padding: 2px;
+}
+.gallary .our-gallary img{
+    width: 100%;
+    
+}
+/*end gallary section style in home page*/
+/*start section registry style*/
+.save-data{
+    margin-top: 80px;
+}
+.save-data p{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.save-data a{
+    padding:10px 30px;
+    background-color: var(--activColor);
+    color:var(--ligthColor);
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+.save-data a:hover{
+    color: var(--activColor);
+    background-color: var(--ligthColor);
+    border: 1px solid var(--activColor);
+    border-radius: 10px;
+}
+/*end section registry style*/
+
+/*start footer section*/
+footer{
+    background-color: var(--activColor);
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 100px;
+    padding: 20px;
+}
+/*end footer section*/
+
+/*start story page*/
+.story-page{
+    height: 90vh;
+    background-image:linear-gradient(#000,#1d1a1a1f), url("../images/ourstorybg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+    position: relative;
+}
+
+/*start ourStory-page style */
+.ourStory-page{
+    margin-top: 60px;
+    padding: 30px 0;
+}
+.ourStory-page .story-content-page .story-page-img{
+    width: 400px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.ourStory-page .story-content-page .story-page-img img{
+    width: 100%;
+    height: 300px;
+}
+.ourStory-page .story-content-page .story-page-img img:first-of-type{
+    opacity: .3;
+}
+.ourStory-page .story-content-page .story-page-img img:last-of-type{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.ourStory-page .story-content-page .story-page-img.last{
+    margin-left: 109px;
+}
+.ourStory-page .story-content-page .content{
+    margin-bottom: 50px;
+}
+.ourStory-page .story-content-page .content h3{
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.ourStory-page .story-content-page .content p{
+    text-transform: capitalize;
+    font-weight: 4000;
+    font-size: 18px;
+    color: var(--textColor);
+}
+/*end ourStory-page style*/
+
+/*start gallary-page style*/
+.gallary-page{
+    background-color: #f5e8d142;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.gallary-page .row [class*=col-]{
+    padding: 2px;
+}
+.gallary-page .our-gallary img{
+    width: 281px;
+    height: 281px;
+}
+/*end gallary-page style*/
+
+/*end story page*/
+
+/*start contact page style*/
+.contact{
+    height: 90vh;
+    background-image:linear-gradient(#000,#1d1a1a1f), url("../images/contactbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.contact-us{
+    margin: 50px 0;
+    padding: 50px 0;
+    position: relative;
+    background-image: linear-gradient(to bottom ,var(--ligthColor),#c4ad9d99);
+}
+.contact-us .contact-info .headdr-section h2{
+    font-size: 35px;font-weight: bolder;
+}
+.contact-us .contact-info .headdr-section .lead{
+    font-size: 20px;
+    margin: 30px 0;
+}
+.contact-us .contact-info .media{
+    color:var(--activColor);
+    text-transform: capitalize;
+}
+.contact-us .contact-info .media i{
+    font-size: 40px;
+    color: var(--activColor);
+    margin-right: 20px;
+}
+.contact-us .contact-form{
+    border: 1px solid var(--activColor);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 5px 5px 12px #54595f29,
+    -5px -5px 12px #54595f29;
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+
+}
+.contact-us .contact-form form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-us .contact-form form label{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 18px;
+    color: var(--secendery-color);
+    display:block;
+    font-weight: 300;
+    margin-bottom: 10px;
+} 
+.contact-us .contact-form form .form-control{
+    padding: 30px;
+    border: none;
+    background-color: #54595f29;
+    outline: none;
+    margin-bottom: 10px;
+}
+.contact-us .contact-form form input[type=submit]{
+    background: none;
+    border: 1px solid var(--mainColor);
+    padding: 10px;
+    text-transform: uppercase;
+    width: 150px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.contact-us .contact-form form input[type=submit]:hover{
+    background-color: var(--activColor);
+    color: var(--ligthColor);
+    border: none;
+}
+.contact-page.ourStory .ourStory-footer{
+    margin-top: 100px;
+} 
+/*end contact page style*/
+
+/*start RSVP style page*/
+
+.RSVP-page{
+    background-color: var(--ligthColor);
+    padding-top: 30px;
+    margin: 50px 0;
+    padding-bottom: 50px;
+}
+.RSVP-page .row [class*=col-]{
+    padding: 2px;
+}
+.RSVP-page .our-gallary img{
+    width: 281px;
+    height: 281px;
+}
+
+.servcies .card{
+    border: none;
+    margin-top: 50px;
+    background-color: var(--activColor);
+    padding: 20px;
+    border-radius: 0;
+    box-shadow: 5px 0px 10px #99a0a96b,-5px 0px 10px #99a0a96b;
+    color: var(--ligthColor);
+    padding-bottom: 30px;
+}
+.servcies .first-card{
+    background-color: #ded5d57a;
+    color: #7A7A7A;
+}
+.servcies .card.first-card .card-text,
+.servcies .card.first-card .phone{
+    color: #7A7A7A;
+}
+.servcies .card.first-card a{
+    color: var(--activColor);
+}
+.servcies .card i{
+    font-size: 40px; font-weight: bold;
+    margin-top: 60px;
+}
+.servcies .card .card-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.servcies .card .card-text,.phone{
+    font-size: 18px;
+    color: var(--ligthColor);
+    margin-bottom: 30px;
+}
+.servcies .card a{
+    font-style: italic;
+    color: var(--ligthColor);
+    text-decoration: underline;
+    text-transform: capitalize;
+    outline: none;
+    padding-bottom: 10px;
+}
+.servcies .row [class*=col-] {
+    padding: 0;
+}
+/*end RSVP style page*/

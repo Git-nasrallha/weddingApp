@@ -1,0 +1,159 @@
+
+/*mobile screen*/
+@media(max-width:576px){
+    /*responsive home page*/
+    header{
+        height: 70vh;
+    }
+    .header-content .header-section h1{
+        font-size: 20px;
+    }
+    .header-content .header-section h1::after{
+        width: 100%;
+        right: 0;
+        bottom: 0;
+    }
+    .header-content .header-section h1::before{
+        width: 100%;
+        left: 4px;
+        top: 0px;
+    }
+    .header-section-with-border h1::before{
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    .header-section-with-border h1::after{
+        width: 100%;
+        right: 0;
+        bottom: 0;
+    }
+    .header-content .names {
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    .ourStory .headdr-section{
+        width: 300px;
+    }
+    .headdr-section{
+        width: 300px;
+    }
+    .headdr-section h2{
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .ourStory .story-content .story-img img{
+        width: 100%;
+    }
+    .ourStory .content-text .text{
+        width: 367px;padding: 0;
+    }.ourStory .content-text .text p {
+        font-size: 26px;
+    }
+    .gallary .row [class*=col-] {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .registry img{
+        margin-bottom: 35px;
+        width: 400px;
+    }
+    .save-data p{
+        margin-top: 50px;
+    }
+    /*responsive our story page*/
+    .story-page{
+        height: 52vh;
+    }
+    .ourStory-page .story-content-page .story-page-img{
+        width: 250px;
+    }
+    .ourStory-page .story-content-page .story-page-img.last{
+        margin-left: 0;
+    }
+    .gallary-page .row [class*=col-] {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .gallary-page .our-gallary img{
+        width: 100%;
+    }
+    /*contact page*/
+    .contact{
+        height: 52vh;
+    }
+    .contact-us .contact-info .headdr-section h2{
+        font-size: 27px;
+    }
+    .contact-us .contact-form{
+        position: sticky;
+    }
+    /*start RSVP*/
+    .RSVP-page .row [class*=col-] {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .RSVP-page .our-gallary img{
+        width: 100%;
+    }
+    .servcies{
+        margin-top: 80px;
+    }
+}
+/*small screen*/
+@media(min-width:578px) and (max-width:991px){
+    header{
+        height: 52vh;
+    }
+    .ourStory .headdr-section h2 {
+        font-weight: bold;
+        font-size: 50px;
+        margin-bottom: 22px;
+    }
+    .headdr-section h2 {
+        font-weight: bold;
+        font-size: 50px;
+        margin-bottom: 22px;
+    }
+    .ourStory .content-text .text{
+        width: 700px;
+        padding: 20px;
+    }
+    
+    .save-data p{
+        margin-top: 50px;
+    }
+    /*our story page*/
+    .story-page{
+        height: 52vh;
+    }
+    .ourStory-page .story-content-page .story-page-img{
+        width: 90%;
+    }
+    .ourStory-page .story-content-page .story-page-img.last{
+        margin-left: 0;
+    }
+    
+    .gallary-page .our-gallary img{
+        width: 100%;
+    }
+    /*contact page*/
+    .contact{
+        height: 52vh;
+    }
+    .contact-us .contact-info .headdr-section h2{
+        font-size: 30px;
+    }
+    /*RSVP*/
+    .RSVP-page .row [class*=col-] {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .RSVP-page .our-gallary img{
+        width: 100%;
+    }
+    .servcies{
+        margin-top: 80px;
+    }
+}
