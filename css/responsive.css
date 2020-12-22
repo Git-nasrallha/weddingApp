@@ -3,7 +3,7 @@
 @media(max-width:576px){
     /*responsive home page*/
     header{
-        height: 70vh;
+        height: 70vh
     }
     .header-content .header-section h1{
         font-size: 20px;
@@ -32,6 +32,14 @@
         margin-top: 20px;
         font-size: 35px;
     }
+    .header-content .weeding-date{
+        margin-top: 0;
+    }
+    .header-content .add-to-calender{
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 20px;
+    }
     .ourStory .headdr-section{
         width: 300px;
     }
@@ -47,9 +55,18 @@
         width: 100%;
     }
     .ourStory .content-text .text{
-        width: 367px;padding: 0;
+        width: 90%;padding: 0;
     }.ourStory .content-text .text p {
-        font-size: 26px;
+        font-size: 22px;
+    }
+    .ourStory .content-text .text h5{
+        margin-top: 50px;
+    }
+    .ourStory .ourStory-footer{
+        margin-top: 100px;
+    }
+    .ourStory .ourStory-footer .card{
+        margin-bottom: 25px;
     }
     .gallary .row [class*=col-] {
         padding-right: 15px;
@@ -90,6 +107,9 @@
         position: sticky;
     }
     /*start RSVP*/
+    .RSVP-page-header{
+        height: 70vh
+    }
     .RSVP-page .row [class*=col-] {
         padding-right: 15px;
         padding-left: 15px;
@@ -146,6 +166,9 @@
         font-size: 30px;
     }
     /*RSVP*/
+    .RSVP-page-header{
+        height: 70vh
+    }
     .RSVP-page .row [class*=col-] {
         padding-right: 15px;
         padding-left: 15px;
